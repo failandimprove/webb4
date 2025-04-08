@@ -1,0 +1,721 @@
+    /* 
+    * CSS Reset Overrides & Baseline Styles
+    * These styles re-establish defaults that were reset by reset.css
+    */
+
+    /* HTML/Body base styles */
+    html {
+        font-size: 16px; /* Sets base font size for rem units */
+        line-height: 1.5; /* Establishes comfortable line spacing */
+    }
+
+    /* Main body styling */
+    body {
+        font-family: Arial, sans-serif; /* Sets default font */
+        background-color: #3B3B3B; /* Dark gray background */
+        color: #ddd; /* Light gray text color */
+        margin: 2rem; /* Outer spacing */
+        padding: 2rem; /* Inner spacing */
+    }
+
+    /* 
+    * Heading Styles 
+    * Reinstates heading styles removed by reset.css
+    */
+    h1 {
+        color: #89cff0; /* Light blue color */
+        font-size: 2.5rem; /* Large heading size */
+        padding-bottom: 1.5rem; /* Bottom spacing */
+        font-weight: bold; /* Explicit bold (reset.css removed default bold) */
+    }
+
+    h2 {
+        color: #89cff0; /* Light blue color */
+        padding-bottom: 1.5rem; /* Bottom spacing */
+        font-size: 1.8rem; /* Medium-large size */
+        font-weight: bold; /* Explicit bold */
+    }
+
+    h3 {
+        padding-bottom: 1rem; /* Bottom spacing */
+        font-size: 1.4rem; /* Medium size */
+        font-weight: bold; /* Explicit bold */
+    }
+
+    h4 {
+        padding-bottom: 0.75rem; /* Bottom spacing */
+        font-size: 1.2rem; /* Small-medium size */
+        font-weight: bold; /* Explicit bold */
+    }
+
+    /* 
+    * List Styles 
+    * Reinstates list styling removed by reset.css
+    */
+    ul, ol {
+        margin-bottom: 1rem; /* Bottom spacing */
+        padding-left: 2rem; /* Indentation */
+        list-style-position: outside; /* Bullet/num position */
+    }
+
+    ul {
+        list-style-type: disc; /* Restores bullet points */
+    }
+
+    ol {
+        list-style-type: decimal; /* Restores numbers */
+    }
+
+    /* 
+    * Global Styles 
+    * Applies to all elements
+    */
+    * {
+        box-sizing: border-box; /* Better box model calculation */
+    }
+
+    /* Paragraph styling */
+    p {
+        padding-bottom: 0.5rem; /* Bottom spacing */
+    }
+
+    /* Link styling */
+    a {
+        color: #009Fff; /* Blue link color */
+        text-decoration: none; /* Removes underline */
+    }
+
+    a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+
+    /* 
+    * Layout Components 
+    * These style major layout sections
+    */
+
+    /* Main content container */
+    .container {
+        max-width: 75rem; /* Maximum width */
+        margin: 0 auto; /* Centered */
+        padding: 1.25rem; /* Inner spacing */
+    }
+
+    /* Footer styling */
+    footer {
+        background-color: #2c3e50; /* Dark blue background */
+        color: white; /* White text */
+        text-align: center; /* Centered content */
+        padding: 1.25rem; /* Inner spacing */
+        font-family: Arial, sans-serif; /* Font specification */
+        font-size: 0.875rem; /* Small text */
+        border-top: 0.0625rem solid #333; /* Top border */
+        margin-top: 3.125rem; /* Top spacing */
+    }
+
+    /* 
+    * Contact Information Section 
+    */
+    .contact-info h3 {
+        margin: 0 0 1rem 0; /* Bottom spacing */
+        font-size: 1.125rem; /* Medium text */
+        color: #ecf0f1; /* Light gray */
+    }
+
+    .contact-info p {
+        margin: 0.5rem 0; /* Vertical spacing */
+    }
+
+    .contact-info span {
+        font-weight: bold; /* Bold text */
+        color: #1abc9c; /* Teal color */
+    }
+
+    /* External links styling */
+    .external-link a {
+        color: #3498db; /* Blue color */
+        font-weight: bold; /* Bold text */
+        text-decoration: none; /* No underline */
+        margin-top: 1rem; /* Top spacing */
+        display: inline-block; /* Block display */
+    }
+
+    .external-link a:hover {
+        text-decoration: underline; /* Underline on hover */
+        color: #1abc9c; /* Teal color on hover */
+    }
+
+    /* 
+    * Navigation Bar 
+    */
+    .nav-bar {
+        background-color: #3B3B3B; /* Dark gray background */
+        padding: 1rem 0; /* Vertical padding */
+        text-align: center; /* Centered content */
+    }
+
+    .nav-bar ul {
+        list-style-type: none; /* No bullets */
+        margin: 0; /* No margin */
+        padding: 0; /* No padding */
+        display: inline-block; /* Inline display */
+    }
+
+    .nav-bar li {
+        display: inline; /* Horizontal layout */
+        margin: 0 1rem; /* Horizontal spacing */
+    }
+
+    .nav-bar a {
+        text-decoration: none; /* No underline */
+        padding: 1rem 2rem; /* Button padding */
+        color: #fff; /* White text */
+        background-color: #333; /* Dark background */
+        font-family: Arial, sans-serif; /* Font specification */
+    }
+
+    .nav-bar a:hover {
+        background-color: #C5C5C5; /* Light gray on hover */
+    }
+
+    .nav-bar a.active {
+        background-color: #007bff; /* Blue for active link */
+        color: #fff; /* White text */
+    }
+
+    /* 
+    * Talent Section Styles 
+    */
+
+    /* Talent heading with icon */
+    .talent-heading {
+        display: flex; /* Flex layout */
+        align-items: center; /* Vertical alignment */
+        gap: 0.625rem; /* Spacing between items */
+        color: #FFA500; /* Orange color */
+        font-size: 1.5rem; /* Medium size */
+        font-weight: bold; /* Bold text */
+    }
+
+    /* Talent icon styling */
+    .talent-icon {
+        width: 1.5rem; /* Fixed width */
+        height: 1.5rem; /* Fixed height */
+        border-radius: 50%; /* Circular shape */
+        object-fit: cover; /* Image scaling */
+    }
+
+    /* Alternate talent heading */
+    .talent-heading2 {
+        display: flex; /* Flex layout */
+        align-items: center; /* Vertical alignment */
+        gap: 0.625rem; /* Spacing between items */
+        color: #8155ba; /* Purple color */
+        font-size: 1.5rem; /* Medium size */
+        padding-top: 0.6rem; /* Top spacing */
+        font-weight: bold; /* Bold text */
+    }
+
+    /* Image styling for talent sections */
+    .talent-heading img,
+    .talent-heading2 img,
+    .Hero-talent img,
+    .Hero-talent2 img {
+        position: static; /* Normal positioning */
+        top: 0; /* Reset positioning */
+        width: 1.5rem; /* Fixed width */
+        height: 1.5rem; /* Fixed height */
+        border-radius: 50%; /* Circular shape */
+        object-fit: cover; /* Image scaling */
+    }
+
+    /* General image styling */
+    img {
+        width: 1.1rem; /* Small size */
+        height: 1.1rem; /* Small size */
+        object-fit: contain; /* Image scaling */
+        position: relative; /* Positioning context */
+        top: 0.175rem; /* Minor vertical adjustment */
+        display: inline-block; /* Allows positioning */
+    }
+
+    /* Hero talent variations */
+    .Hero-talent2 {
+        color: #8155ba; /* Purple color */
+        font-size: 1.5rem; /* Medium size */
+        font-weight: bold; /* Bold text */
+    }
+
+    .Hero-talent {   
+        color: #FFA500; /* Orange color */
+        font-size: 1.5rem; /* Medium size */
+        font-weight: bold; /* Bold text */
+    }
+
+    /* Talent container layout */
+    .talent-container {
+        display: flex; /* Flex layout */
+        gap: 1rem; /* Spacing between items */
+        align-items: center; /* Vertical alignment */
+        padding-bottom: 1.2rem; /* Bottom spacing */
+    }
+
+    /* Talent text spacing */
+    .talent-text {
+        padding-bottom: 0.8rem; /* Bottom spacing */
+    }
+
+    /* 
+    * Header Section 
+    */
+    .header {
+        display: flex; /* Flex layout */
+        align-items: center; /* Vertical alignment */
+        justify-content: center; /* Horizontal centering */
+        margin: 1.875rem 0; /* Vertical spacing */
+        position: relative; /* Positioning context */
+    }
+
+    .header h1 {
+        color: #00b4ff; /* Bright blue */
+        text-transform: uppercase; /* Uppercase text */
+        padding: 0 1.25rem; /* Horizontal padding */
+        margin: 0; /* No margin */
+        z-index: 1; /* Stacking order */
+        font-size: 2.1rem; /* Large size */
+    }
+
+    /* Header divider lines */
+    .header::before,
+    .header::after,
+    .build-header::before,
+    .build-header::after {
+        content: ''; /* Required for pseudo-elements */
+        height: 0.125rem; /* Thin line */
+        background-color: #666; /* Gray color */
+        flex: 1; /* Flexible width */
+    }
+
+    /* Header icon styling */
+    .header-icon {
+        width: 2.5rem; /* Fixed width */
+        height: 2.5rem; /* Fixed height */
+        border-radius: 50%; /* Circular shape */
+        margin-right: 0.625rem; /* Right spacing */
+    }
+
+    /* 
+    * Build Container 
+    */
+    .build-container {
+        background-color: #222; /* Very dark gray */
+        border: 0.0625rem solid #444; /* Border */
+        border-radius: 0.25rem; /* Rounded corners */
+        padding: 1.25rem; /* Inner spacing */
+        margin: 1.25rem 0; /* Outer spacing */
+    }
+
+    /* Build header styling */
+    .build-header {
+        display: flex; /* Flex layout */
+        align-items: center; /* Vertical alignment */
+        justify-content: center; /* Horizontal centering */
+        margin: 1.875rem 0; /* Vertical spacing */
+        position: relative; /* Positioning context */
+        text-align: center; /* Centered text */
+    }
+
+    .build-header h2 {
+        color: #00b4ff; /* Bright blue */
+        text-transform: uppercase; /* Uppercase text */
+        padding: 0 1.25rem; /* Horizontal padding */
+        margin: 0; /* No margin */
+        z-index: 1; /* Stacking order */
+    }
+
+    /* Builds table layout */
+    .builds-table {
+        width: 100%; /* Full width */
+        border-collapse: separate; /* Separate borders */
+        border-spacing: 0 0.625rem; /* Cell spacing */
+        margin: 1.25rem 0; /* Outer spacing */
+    }
+
+    .builds-table td {
+        background-color: #1c1c1c; /* Dark cell background */
+        padding: 0.9375rem; /* Cell padding */
+        border: 0.0625rem solid #333; /* Cell border */
+    }
+
+    /* Table cell border adjustments */
+    .builds-table td:first-child {
+        border-right: none; /* No right border */
+    }
+
+    .builds-table td:last-child {
+        border-left: none; /* No left border */
+    }
+
+    /* Build copy button */
+    .copy-build-button {
+        background-color: #c41e3a; /* Red color */
+        color: white; /* White text */
+        border: none; /* No border */
+        padding: 0.5rem 0.9375rem; /* Button padding */
+        cursor: pointer; /* Pointer cursor */
+        border-radius: 0.25rem; /* Rounded corners */
+        width: 100%; /* Full width */
+    }
+
+    /* Build description text */
+    .build-description {
+        margin-top: 1.875rem; /* Top spacing */
+        color: #ccc; /* Light gray */
+        line-height: 1.6; /* Comfortable line spacing */
+    }
+
+    /* 
+    * Guide Navigation 
+    */
+    .guide-navigation {
+        margin: 1.25rem 0; /* Vertical spacing */
+        padding: 1.25rem; /* Inner spacing */
+        background-color: #1c1c1c; /* Dark background */
+        border-radius: 0.25rem; /* Rounded corners */
+    }
+
+    /* Navigation row layout */
+    .nav-row {
+        display: flex; /* Flex layout */
+        justify-content: space-between; /* Space between items */
+        margin-bottom: 0.625rem; /* Bottom spacing */
+    }
+
+    .nav-row:last-child {
+        margin-bottom: 0; /* No bottom margin for last item */
+    }
+
+    /* Navigation buttons */
+    .nav-button {
+        display: flex; /* Flex layout */
+        align-items: center; /* Vertical alignment */
+        justify-content: center; /* Horizontal centering */
+        background-color: #2c2c2c; /* Dark background */
+        padding: 0.625rem 1.25rem; /* Button padding */
+        border-radius: 0.25rem; /* Rounded corners */
+        text-decoration: none; /* No underline */
+        color: #fff; /* White text */
+        width: 45%; /* Width */
+        transition: background-color 0.2s; /* Smooth hover */
+    }
+
+    .nav-button:hover {
+        background-color: #3c3c3c; /* Hover state */
+    }
+
+    .nav-button.active {
+        background-color: #3498db; /* Active state */
+    }
+
+    /* New tag indicator */
+    .new-tag {
+        background-color: #2ecc71; /* Green color */
+        color: white; /* White text */
+        padding: 0.125rem 0.375rem; /* Small padding */
+        border-radius: 0.1875rem; /* Rounded corners */
+        font-size: 0.75rem; /* Small text */
+        margin-left: 0.3125rem; /* Left spacing */
+    }
+
+    /* 
+    * Media Queries for Responsive Design
+    */
+
+    /* Tablet and smaller devices */
+    @media screen and (max-width: 48rem) {
+        body {
+            padding: 1rem; /* Reduced padding */
+        }
+
+        .container {
+            max-width: 100%; /* Full width */
+            margin: 0; /* No margin */
+        }
+
+        h1 {
+            font-size: 1.8rem; /* Smaller heading */
+            text-align: center; /* Centered */
+        }
+
+        .nav-bar a {
+            display: block; /* Stack vertically */
+            margin: 0.5rem 0; /* Vertical spacing */
+        }
+
+        .talent-container {
+            flex-direction: column; /* Stack vertically */
+            gap: 0.5rem; /* Reduced gap */
+        }
+
+        img {
+            width: 1.1rem; /* Maintain size */
+            height: 1.1rem; /* Maintain size */
+        }
+    }
+
+    /* Mobile devices */
+    @media (max-width: 30rem) {
+        .header h1 {
+            font-size: 1.5rem; /* Smaller heading */
+        }
+        
+        .build-header h2 {
+            font-size: 1.25rem; /* Smaller heading */
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 70rem;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .header-icon {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .build-container {
+            padding: 2rem;
+        }
+    }
+
+    /* Large devices (desktops, 992px to 1199px) */
+    @media (max-width: 1199px) {
+        .container {
+            max-width: 60rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        .build-container {
+            padding: 1.5rem;
+        }
+
+        .nav-button {
+            font-size: 1rem;
+        }
+    }
+
+    /* Medium devices (tablets, 768px to 991px) */
+    @media (max-width: 991px) {
+        .container {
+            max-width: 45rem;
+            padding: 1rem;
+        }
+
+        body {
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+        }
+
+        .header-icon {
+            width: 2.2rem;
+            height: 2.2rem;
+        }
+
+        .build-container {
+            padding: 1.25rem;
+            margin: 1rem 0;
+        }
+
+        .nav-row {
+            flex-direction: row;
+            gap: 1rem;
+        }
+
+        .nav-button {
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+        }
+
+        .builds-table td {
+            padding: 0.75rem;
+        }
+
+        img {
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+
+    /* Small devices (landscape phones, 576px to 767px) */
+    @media (max-width: 767px) {
+        .container {
+            max-width: 34rem;
+            padding: 0.75rem;
+        }
+
+        body {
+            margin: 0.75rem;
+            padding: 0.75rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        .header-icon {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .nav-row {
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .nav-button {
+            width: 100%;
+            font-size: 0.875rem;
+            padding: 0.5rem;
+        }
+
+        .builds-table {
+            display: block;
+            overflow-x: auto;
+        }
+
+        .talent-container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    /* Extra small devices (phones, less than 576px) */
+    @media (max-width: 575px) {
+        .container {
+            max-width: 100%;
+            padding: 0.5rem;
+        }
+
+        body {
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+        }
+
+        .header-icon {
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+
+        .builds-table td {
+            display: block;
+            margin-bottom: 0.5rem;
+            width: 100%;
+        }
+
+        img {
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+    }
+
+    /* Very small devices (iPhone SE, Galaxy Fold, etc.) */
+    @media (max-width: 320px) {
+        h1 {
+            font-size: 1rem;
+        }
+
+        .header-icon {
+        width: 1.5rem; 
+        height: 1.5rem;
+        }
+
+        .nav-button {
+            font-size: 0.7rem;
+        }
+
+        .build-container {
+            padding: 0.5rem;
+        }
+
+        img {
+            width: 0.7rem;
+            height: 0.7rem;
+        }
+    }
+
+    /* Landscape orientation specific adjustments */
+    @media (max-height: 500px) and (orientation: landscape) {
+        .container {
+            padding: 0.5rem;
+        }
+
+        .nav-row {
+            flex-direction: row;
+        }
+
+        .build-container {
+            margin: 0.5rem 0;
+        }
+
+        .talent-container {
+            flex-direction: row;
+        }
+    }
+
+    /* High-resolution screens (Retina displays) */
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        img {
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+        }
+    }
+
+    /* Print media query */
+    @media print {
+        body {
+            background: white;
+            color: black;
+        }
+
+        .nav-button, 
+        .copy-build-button,
+        .external-link {
+            display: none;
+        }
+
+        .build-container {
+            break-inside: avoid;
+            border: 1px solid #ccc;
+        }
+
+        img {
+            print-color-adjust: exact;
+        }
+    }
