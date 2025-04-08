@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frost Mage Guide</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+     
+
+    <div class="container">
+        <div class="header">
+            <h1><img src="Images/frost_mage_icon.png" alt="Frost Mage Icon" class="header-icon">Frost Mage Guide For Patch 11.1</h1>
+        </div>
+
+        <p>Welcome to my Season 1 Patch 11.1 Frost Mage guide. 
+        This guide will help you master your Frost Mage in all aspects of the game including raids and dungeons.</p>
+
+        <div class="guide-navigation">
+            <div class="nav-row">
+                <a href="#" class="nav-button active">Overview</a>
+                <a href="Rotation.html" class="nav-button">Rotation</a>
+            </div>
+            <div class="nav-row">
+                <a href="M+_guide.html" class="nav-button">M+ Guide</a>
+                <a href="Raid_guide.html" class="nav-button">Raid Guide</a>
+            </div>
+        </div>
+
+        <div class="build-container">
+            <div class="build-header">
+                <h2>Overview</h2>
+            </div>
+            <div class="build-description">
+                <p>Frost Mage is a cloth wearing ranged damage dealer that excels at damaging and kiting stacked enemies. 
+                Frost Mages enjoy some substantial bonus damage when fighting targets that can be frozen thanks to 
+                <img src="Images/shatter.png" alt="Shatter Icon"><a href="https://www.wowhead.com/spell=12982/shatter">Shatter</a>, which includes most non-boss enemies. 
+                As Frost Mage is a mage it has extremely good personal and group utility such as 
+                <img src="Images/shimmer.png" alt="Shimmer Icon"><a href="https://www.wowhead.com/spell=212653/shimmer">Shimmer</a>/<img src="Images/ice_floes.png" alt="Ice Floes"><a href="https://www.wowhead.com/spell=108839/ice-floes">Ice Floes</a>, 
+                <img src="Images/ice_cold.png" alt="Ice Cold Icon"><a href="https://www.wowhead.com/spell=414658/ice-cold">Ice Cold</a>/<img src="Images/ice_block.png" alt="Ice Block Icon"> <a href="https://www.wowhead.com/spell=45438/ice-block">Ice Block</a>, 
+                Arcane Intellect, Mass Barrier, <img src="Images/Greater_invisibility.png" alt="Greater Invisibility Icon"><a href="https://www.wowhead.com/spell=110959/greater-invisibility">Greater Invisibility</a> and 
+                <img src="Images/ice_barrier.png" alt="Ice Barrier Icon"><a href="https://www.wowhead.com/spell=11426/ice-barrier" >Ice Barrier</a>. Every Mage spec has their own special defensive capability. 
+                For example, Fire Mage has Cauterize while Arcane has Arcane Barrier, which is more useful than the other two barriers. 
+                Frost Mage has <img src="Images/Cold_snap.png" alt="Cold Snap Icon"><a href="https://www.wowhead.com/spell=235219/cold-snap">Cold Snap</a>, which resets the cooldown of 
+                <img src="Images/ice_barrier.png" alt="Ice Barrier Icon"><a href="https://www.wowhead.com/spell=11426/ice-barrier">Ice Barrier</a> and <img src="Images/ice_block.png" alt="Ice Block Icon"> <a href="https://www.wowhead.com/spell=45438/ice-block">Ice Block</a>/<img src="Images/ice_cold.png" alt="Ice Cold Icon"> <a href="https://www.wowhead.com/spell=414658/ice-cold">Ice Cold</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="build-container">
+            <div class="build-header">
+                <h2>Stat Priority</h2>
+            </div>
+            <div class="build-description">
+                <p>Intellect > Haste ≥ Critical Strike ≥ Versatility > Mastery</p>
+                <p>Something important to note is that after 33,34% Crit it loses effectiveness as every <img src="Images/shatter.png" alt="Shatter Icon"><a href="https://www.wowhead.com/spell=12982/shatter">Shatter</a> will crit after reaching that threshold.</p>
+            </div>
+        </div>
+
+        <div class="build-container">
+            <div class="build-header">
+                <h2>Strengths & Weaknesses</h2>
+            </div>
+            <div class="build-description">
+                <h3>Strengths:</h3>
+                <ul>
+                    <li>Extreme survivability with numerous defensives, including 
+                        <img src="Images/ice_barrier.png" alt="Ice Barrier Icon"><a href="https://www.wowhead.com/spell=11426/ice-barrier">Ice Barrier</a>, 
+                        <img src="Images/ice_block.png" alt="Ice Block Icon"><a href="https://www.wowhead.com/spell=45438/ice-block">Ice Block</a>/<img src="Images/ice_cold.png" alt="Ice Cold Icon"><a href="https://www.wowhead.com/spell=414658/ice-cold">Ice Cold</a> 
+                        (twice with <img src="Images/cold_snap.png" alt="Cold Snap Icon"><a href="https://www.wowhead.com/spell=235219/cold-snap">Cold Snap</a>), 
+                        <img src="Images/Alter_time.png" alt="Alter Time Icon"><a href="https://www.wowhead.com/spell=108978/alter-time">Alter Time</a>, 
+                        <img src="Images/Mirrors.png" alt="Mirror Image Icon"><a href="https://www.wowhead.com/spell=55342/mirror-image">Mirror Image</a>, and 
+                        <img src="Images/greater_invisibility.png" alt="Greater Invisibility Icon"> <a href="https://www.wowhead.com/spell=110959/greater-invisibility">Greater Invisibility</a>.
+                        
+                    </li>
+                    <li>Extra damage to rootable enemies thanks to 
+                        <img src="Images/shatter.png" alt="Shatter Icon"><a href="https://www.wowhead.com/spell=12982/shatter" >Shatter</a>.
+                    </li>
+                    <li>Very effective against two stacked targets with 
+                        <img src="Images/splitting_ice.png" alt="Splitting Ice Icon"><a href="https://www.wowhead.com/spell=56377/splitting-ice" >Splitting Ice</a>.
+                    </li>
+                    <li>Flexible damage profile that provides substantial burst during 
+                        <img src="Images/Veins.png" alt="Icy Veins Icon"><a href="https://www.wowhead.com/spell=12472/icy-veins" >Icy Veins</a>, while not being too weak without it.
+                    </li>
+                    <li>Mob control with many tools to slow and root enemies, such as 
+                        <img src="Images/Frost_nova.png" alt="Frost Nova Icon"><a href="https://www.wowhead.com/spell=122/frost-nova" >Frost Nova</a>, 
+                        <img src="Images/freeze.png" alt="Freeze Icon"><a href="https://www.wowhead.com/spell=231596/freeze" >Freeze</a>, and 
+                        <img src="Images/frostbolt.png" alt="Frostbolt Icon"><a href="https://www.wowhead.com/spell=116/frostbolt" >Frostbolt</a>.
+                    </li>
+                </ul>
+                
+                <h3>Weaknesses:</h3>
+                <ul>
+                    <li>Thanks to <img src="Images/thermal_void.png" alt="Thermal Void Icon"><a href="https://www.wowhead.com/spell=155149/thermal-void" >Thermal Void</a>, 
+                        <img src="Images/Veins.png" alt="Icy Veins Icon"><a href="https://www.wowhead.com/spell=12472/icy-veins" >Icy Veins</a> can last long enough that it will sometimes be hard to fully avoid downtime during it.
+                    </li>
+                    <li>No spread cleave if targets are separated.</li>
+                    <li>Limited sustained self-healing makes it easy to die to continuous damage intake.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="build-container">
+            <div class="build-header">
+                <h2>Consumables</h2>
+            </div>
+            <div class="build-description">
+                <ul>
+                    <li>The best flask depends on your stat distribution, but mostly you want to use 
+                        <img src="Images/Haste_flask.png" alt="Flask of Tempered Swiftness Icon"><a href="https://www.wowhead.com/item=212274/flask-of-tempered-swiftness" >Flask of Tempered Swiftness</a> or 
+                        <img src="Images/Chaos_flask.png" alt ="Flask of Alchemical Chaos Icon"><a href="https://www.wowhead.com/item=212283/flask-of-alchemical-chaos" >Flask of Alchemical Chaos</a> 
+                    </li>
+                    <li><img src="Images/Potion.png" alt="Tempered Potion Icon"><a href="https://www.wowhead.com/item=212265/tempered-potion" >Tempered Potion</a> is the best for damage for every class and specialization.</li>
+                    <li><img src="Images/algari_healing_potion.png" alt="Algari Healing Potion Icon"><a href="https://www.wowhead.com/item=211880/algari-healing-potion" >Algari Healing Potion</a> is the best healing potion for every class and specialization.</li>
+                    <li><img src="Images/Oil.png" alt="Algari Mana Oil Icon"><a href="https://www.wowhead.com/item=224107/algari-mana-oil" >Algari Mana Oil</a> is the best weapon buff available for Mage.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="build-container">
+            <div class="build-header">
+                <h2>Best Races for Frost Mage</h2>
+            </div>
+            <div class="build-description">
+                <p>The choice of your race is mostly a cosmetic one; however, if you care about top performance, the best race depends 
+                    on the type of content you are doing. Races that increase Critical Strike damage, such as 
+                    Tauren or 
+                    Dwarf, are good choices
+                    to maximize damage output. Another very good race that most people during RWF played was Mechagnome, which has
+                    the highest damage output for Mage because of <img src="Images/Combat_Analysis.png" alt="Combat Analysis Icon"><a href="https://www.wowhead.com/spell=312923/combat-analysis">Combat Analysis</a>. 
+                    For M+ the best choices available are Dwarf and Night Elf. Due to them having the best defensive racials in the game
+                    (
+                   <img src="Images/Stoneform.png" alt="Stoneform Icon"><a href="https://www.wowhead.com/spell=20594/stoneform" >Stoneform</a> and 
+                   <img src="Images/Meld.png" alt="Shadowmeld Icon"><a href="https://www.wowhead.com/spell=58984/shadowmeld" >Shadowmeld</a>), which help a lot defensively.
+                </p>
+            </div>
+        </div>
+
+        <div class="build-container">
+            <div class="build-header">
+                <h2>Frost Mage Changes with Patch 11.1</h2>
+            </div>
+            <div class="build-description">
+                <p>Frost Mage has recieved some signifcant changes for Patch 11.1.</p>
+            
+                <p>
+                    In current tuning Frostfire is generally the preferred choice of hero talent
+                    <img src="Images/Ice_Lance.png" alt="Ice Lance Icon"><a href="https://www.wowhead.com/spell=30455/ice-lance">Ice Lance</a> casts that consume 
+                    <img src="Images/Fingers_of_frost.png" alt="Fingers of frost Icon"><a href="https://www.wowhead.com/spell=112965/fingers-of-frost">Fingers of Frost</a> no longer consume  
+                    <img src="Images/Winter's_Chill.png" alt="Winter's Chill Icon"><a href="https://www.wowhead.com/spell=228358/winters-chill">Winter's Chill</a> and the duration of  
+                    <img src="Images/Winter's_Chill.png" alt="Winter's Chill Icon"><a href="https://www.wowhead.com/spell=228358/winters-chill">Winter's Chill</a> was increased to 8 seconds.
+                    This is an amazing change because previously a large number of  
+                    <img src="Images/Fingers_of_frost.png" alt="Fingers of Frost Icon"><a href="https://www.wowhead.com/spell=112965/fingers-of-frost">Fingers of Frost</a> instances were wasted because there was no good way to 
+                    avoid casting them into a target with  
+                    <img src="Images/Winter's_Chill.png" alt="Winter's Chill Icon"><a href="https://www.wowhead.com/spell=228358/winters-chill">Winter's Chill</a>Winter's Chill</a>, which never felt very good.
+                </p>
+                
+                <p>
+                    <img src="Images/Freezing_winds.png" alt="Freezing Winds Icon"><a href="https://www.wowhead.com/spell=382103/freezing-winds">Freezing Winds</a> was reworked and no longer generates  
+                    <img src="Images/Fingers_of_frost.png" alt="Fingers of Frost Icon"><a href="https://www.wowhead.com/spell=112965/fingers-of-frost">Fingers of Frost</a>. While this may seem like a negative change at first,
+                    it did result in Frost Mages being flooded with uses of  
+                    <img src="Images/Fingers_of_frost.png" alt="Fingers of Frost Icon"><a href="https://www.wowhead.com/spell=112965/fingers-of-frost">Fingers of Frost</a> and forced  
+                    <img src="Images/Blizzard.png" alt="Blizzard Icon"><a href="https://www.wowhead.com/spell=190356/blizzard">Blizzard</a> to keep  
+                    <img src="Images/Ice_Lance.png" alt="Ice Lance Icon"><a href="https://www.wowhead.com/spell=30455/ice-lance">Ice Lance</a> weak.
+                </p>
+                
+                <p>
+                    <img src="Images/Blizzard.png" alt="Blizzard Icon"><a href="https://www.wowhead.com/spell=190356/blizzard">Blizzard</a>'s radius and duration were increased from 8 yards and 8 seconds 
+                    to 12 yards and 12 seconds, respectively. This makes the spell significantly easier to use when targets are spread out or moving around a lot. 
+                    This will be especially noticeable when kiting in solo content and when your tank is running around a lot in group content.
+                </p>
+
+                <h3>Spellslinger Changes:</h3>
+                 
+                <p>There is only a small change for Spellslinger in patch 11.1:</p>
+    
+                    <p>The change for Spellslinger is that you generate  
+                    <img src="Images/Frost_splinter.png" alt="Frost Splinter Icon"><a href="https://www.wowhead.com/spell=443722/frost-splinter" >Frost Splinters</a> when you consume
+                    <img src="Images/Fingers_of_frost.png" alt="Fingers of Frost Icon"><a href="https://www.wowhead.com/spell=112965/fingers-of-frost" >Fingers of Frost</a> and it works the same
+                    for when you consume <img src="Images/Winter's_Chill.png" alt="Winter's Chill Icon"><a href="https://www.wowhead.com/spell=228358/winters-chill">Winter's Chill</a>.</p>
+                  
+             
+
+                <h3>Frostfire Changes:</h3>
+        
+                <p>For Frostfire, one noteworthy change is that <img src="Images/Excess_Fire.png" alt="Excess Fire Icon"><a href="https://www.wowhead.com/spell=438595/excess-fire"> Excess Fire</a> 
+                and <img src="Images/Excess_frost.png" alt="Excess Frost Icon"><a href="https://www.wowhead.com/spell=438600/excess-frost">Excess Frost</a> now stack up to 2 times. These 2 are now used in a less problematic way.</p>
+                <ol>
+                <li>You gain <img src="Images/Excess_Fire.png" alt="Excess Fire Icon"><a href="https://www.wowhead.com/spell=438595/excess-fire"> Excess Fire</a> from casting <img src="Images/Comet_Storm.png" alt="Comet Storm Icon"><a href="https://www.wowhead.com/spell=153595/comet-storm">Comet Storm</a></li> 
+                <li><img src="Images/Excess_Fire.png" alt="Excess Fire Icon"><a href="https://www.wowhead.com/spell=438595/excess-fire"> Excess Fire</a> 
+                is still consumed by <img src="Images/Ice_Lance.png" alt="Ice Lance Icon"><a href="https://www.wowhead.com/spell=30455/ice-lance">Ice Lance</a></li>   
+                <li><img src="Images/Excess_frost.png" alt="Excess Frost Icon"><a href="https://www.wowhead.com/spell=438600/excess-frost">Excess Frost</a> is now gained by consuming <img src="Images/Excess_Fire.png" alt="Excess Fire Icon"><a href="https://www.wowhead.com/spell=438595/excess-fire"> Excess Fire</a></li>
+                <li><img src="Images/Excess_frost.png" alt="Excess Frost Icon"><a href="https://www.wowhead.com/spell=438600/excess-frost">Excess Frost</a> 
+                is Still consumed when you cast <img src="Images/Flurry.png" alt="Flurry Icon"><a href="https://www.wowhead.com/spell=44614/flurry">Flurry</a> </li>
+                </ol>
+                <p>This means that you are not required to track Fire mastery and Frost mastery anymore. 
+                <img src="Images/Excess_frost.png" alt="Excess Frost Icon"><a href="https://www.wowhead.com/spell=438600/excess-frost">Excess Frost</a> now reduces the cooldown of <img src="Images/Comet_Storm.png" alt="Comet Storm Icon"><a href="https://www.wowhead.com/spell=153595/comet-storm">Comet Storm</a> by 3 instead of 10 seconds. The rotation now creates a gameplay loop where
+                <img src="Images/Comet_Storm.png" alt="Comet Storm Icon"><a href="https://www.wowhead.com/spell=153595/comet-storm">Comet Storm</a> gives you 
+                <img src="Images/Excess_Fire.png" alt="Excess Fire Icon"><a href="https://www.wowhead.com/spell=438595/excess-fire"> Excess Fire</a> which gives you 
+                <img src="Images/Excess_frost.png" alt="Excess Frost Icon"><a href="https://www.wowhead.com/spell=438600/excess-frost">Excess Frost</a> reducing the cooldown of
+                <img src="Images/Comet_Storm.png" alt="Comet Storm Icon"><a href="https://www.wowhead.com/spell=153595/comet-storm">Comet Storm</a> to give you more <img src="Images/Comet_Storm.png" alt="Comet Storm Icon"><a href="https://www.wowhead.com/spell=153595/comet-storm">Comet Storm</a>s.
+                Something to take note off is when you get a lot of <img src="Images/Frostfire_empowerment.png" alt="Frostfire Empowerment Icon"><a href="https://www.wowhead.com/spell=431176/frostfire-empowerment">Frostfire Empowerment</a> during
+                <img src="Images/Veins.png" alt="Icy Veins Icon"><a href="https://www.wowhead.com/spell=12472/icy-veins" >Icy Veins</a> you could potentially overcap on 
+                <img src="Images/Excess_frost.png" alt="Excess Frost Icon"><a href="https://www.wowhead.com/spell=438600/excess-frost">Excess Frost</a> and <img src="Images/Excess_Fire.png" alt="Excess Fire Icon"><a href="https://www.wowhead.com/spell=438595/excess-fire"> Excess Fire</a>.
+                This will force you into talenting <img src="Images/Comet_Storm.png" alt="Comet Storm Icon"><a href="https://www.wowhead.com/spell=153595/comet-storm">Comet Storm</a> when playing Frostfire.
+            </div>
+        
+
+    </div>
+    <footer id="footer">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: <span id="email">noel.lam.nilsson@gmail.com</span></p>
+            
+        </div>
+        <div class="external-link">
+            <a href="https://www.wowhead.com/guide/mythic-plus-dungeons/the-war-within-season-2/overview" >
+                Visit the Mythic+ Season 2 overview on Wowhead
+            </a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
